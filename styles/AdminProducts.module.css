@@ -1,0 +1,59 @@
+.card {
+    display: flex;
+    /* width: 100vw; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.totalProducts {
+    margin: 25px 50%;
+    width: max-content;
+    transform: translateX(-50%);
+}
+
+.title {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 15px 0;
+    width: 250px;
+    cursor: pointer;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.update {
+    background-color: #020418;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.remove {
+    background-color: #CA0B00;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .totalProducts {
+        margin: 25px 50%;
+    }
+
+    .title {
+        width: 105px;
+    }
+}

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    flex: 1;
+    background-image: url(https://images.unsplash.com/photo-1556909212-d5b604d0c90d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: calc(100vh - 100px);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.right {
+    flex: 1;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}   
+
+@media screen and (max-width: 785px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100vw;
+        height: 100vh;
+    }
+}

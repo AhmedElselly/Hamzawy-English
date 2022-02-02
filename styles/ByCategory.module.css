@@ -1,0 +1,54 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+.item {
+    padding: 0;
+}
+
+/* 
+
+.carousel {
+    width: 100%;
+    height: 250px;
+}
+
+.wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: max-content;
+    transform: translateX(0);
+    transition: 0.3s all ease-in-out;
+    overflow-x: scroll;
+}
+
+.slideArrow {
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 680px) {
+    .right {
+        position: fixed;
+        right: 90vw;
+    }
+} */

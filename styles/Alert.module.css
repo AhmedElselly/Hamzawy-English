@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(46, 125, 50);
+    width: 70vw;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    transition: 0.7s all ease-in-out;
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    background-color: #fff;
+    color: rgb(46, 125, 50);
+    margin-right: 5px;
+    border-radius: 50%;
+}

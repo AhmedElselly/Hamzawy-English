@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* .container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+} */
+
+.container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 30vh;
+    background: #d1411e;
+    background-size: 400% 400%;
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.adminDashTitle {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.left {
+    flex:1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #020418;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.username {
+    text-transform: capitalize;
+}
+
+.adminTitle {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 25px;
+}
+
+.links {
+    list-style: none;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    flex: 2;
+}
+
+.navLink {
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:680px) {
+    .container {
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    
+    .container2 {
+        width: 100%;
+        height: calc(100vh - 100px);
+        display: flex;
+        flex-direction: column;
+        /* background-color: #999; */
+        /* flex-wrap: wrap; */
+        font-family: 'Open Sans', sans-serif;
+
+    }
+}

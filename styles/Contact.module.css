@@ -1,0 +1,45 @@
+.wrapper {
+    width: 90%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.innerContainer {
+   margin-left: 50px;
+   margin-top: 15px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.input {
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #f1f1f1;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.input:focus {
+    outline: 1px solid #d1411e;
+}
+
+.textarea {
+    width: 80%;
+    height: 150px;
+    resize: none;
+    border-color: #d1411e;
+}
